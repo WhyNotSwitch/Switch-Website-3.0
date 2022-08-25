@@ -18,7 +18,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="img/branding/favicon-32x32.png">
     <link rel="manifest" href="site.webmanifest">
     <link rel="mask-icon" color="#5bbad5" href="safari-pinned-tab.svg">
-    <meta name="msapplication-TileColor" content="#766df4">
+    <meta name="msapplication-TileColor" content="#3B7733">
     <meta name="theme-color" content="#ffffff">
     <!-- Page loading styles-->
     <style>
@@ -69,7 +69,7 @@
         height: 2.75rem;
         margin-bottom: .75rem;
         vertical-align: text-bottom;
-        border: .15em solid #766df4;
+        border: .15em solid #3B7733;
         border-right-color: transparent;
         border-radius: 50%;
         -webkit-animation: spinner .75s linear infinite;
@@ -106,6 +106,7 @@
     <link rel="stylesheet" media="screen" href="vendor/simplebar/dist/simplebar.min.css"/>
     <link rel="stylesheet" media="screen" href="vendor/tiny-slider/dist/tiny-slider.css"/>
     <link rel="stylesheet" media="screen" href="vendor/lightgallery.js/dist/css/lightgallery.min.css"/>
+    <link rel="stylesheet" href="css/switch.css">
     <!-- Main Theme Styles + Bootstrap-->
     <link rel="stylesheet" media="screen" href="css/theme.min.css">
     
@@ -169,7 +170,7 @@
         <div class="container px-0 px-xl-3">
 
           <button class="navbar-toggler ms-n2 me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#primaryMenu"><span class="navbar-toggler-icon"></span></button><a class="navbar-brand flex-shrink-0 order-lg-1 mx-auto ms-lg-0 pe-lg-2 me-lg-4" href="index.html">
-            <img class="d-none d-lg-block" src="img/branding/Switch Electric PNG color.png" alt="Around" width="80"><img class="d-lg-none" src="img/branding/switch main svg.svg" alt="Around" width="58"></a>
+            <img class="d-none d-lg-block" src="img/branding/Switch Electric PNG color.png" alt="Around" width="100"><img class="d-lg-none" src="img/branding/Switch Electric PNG color.png" alt="Around" width="80"></a>
           <div class="d-flex align-items-center order-lg-3 ms-lg-auto"><a class="nav-link-style fs-sm text-nowrap" href="#modal-signin" data-bs-toggle="modal" data-view="#modal-signin-view">
             <!-- <i class="ai-user fs-xl me-2 align-middle"></i>Sign in</a> -->
             <a class="btn btn-primary ms-grid-gutter d-none d-lg-inline-block" href="#modal-signin" data-bs-toggle="modal" data-view="#modal-signup-view">Sign in</a></div>
@@ -185,7 +186,7 @@
 
                 <li class="nav-item active"><a class="nav-link" href="#" >Homes</a></li>
 
-                <li class="nav-item"><a class="nav-link" href="#" >About us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#aboutUs" >About us</a></li>
 
                 <li class="nav-item"><a class="nav-link" href="#" >Our Mission</a></li>
 
@@ -199,9 +200,35 @@
           </div>
         </div>
       </header>
+        <!-- Page content-->
+      <!-- Hero-->
+      <section class="position-relative bg-secondary pt-5 pt-lg-7 pb-7 overflow-hidden">
+        <div class="shape shape-bottom shape-curve bg-body">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3000 185.4">
+            <path fill="currentColor" d="M3000,0v185.4H0V0c496.4,115.6,996.4,173.4,1500,173.4S2503.6,115.6,3000,0z"></path>
+          </svg>
+        </div>
+        <!-- Content-->
+        <div class="container pt-3 pb-4 pt-lg-0">
+          <div class="row align-items-center">
+            <div class="col-lg-5 mt-lg-n7 pb-5 mb-sm-3 mb-lg-0 pb-lg-0 text-center text-lg-start">
+              <h1 class="display-4 text-white">Creativity beyond imagination</h1>
+              <p class="pb-2 text-white">Solar on the go, earn and pay as you use</p><a class="btn-video btn-video-primary me-3"
+               href="https://www.youtube.com/watch?v=3YtXmf4ROu0" data-sub-html="&lt;h6 class=&quot;fs-sm text-light&quot;&gt;Video caption&lt;/h6&gt;"></a><span class="fs-sm text-white">Watch who, how and where</span>
+            </div>
+            <div class="col-lg-7">
+              <div class="parallax mx-auto" style="max-width: 705px;"  id="aboutUs">
+                <div class="parallax-layer position-relative" data-depth="0.1"><img src="img/Switch-meters/IMG_3002-removebg-preview.png" alt="Layer"></div>
+               
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- Page content-->
       <!-- Hero-->
-      <section class="bg-position-start-bottom bg-no-repeat py-6 py-sm-7" style="background-color: #F07F2F; background-image: url(img/Switch-meters/IMG_3003.jpg);">
+      <!-- <section class="bg-position-start-bottom bg-no-repeat py-6 py-sm-7" style="background-color: #F07F2F; background-image: url(img/Switch-meters/IMG_3003-removebg-preview.png);">
         <div class="container py-lg-7">
           <div class="row">
             <div class="col-xl-4 col-lg-5 col-md-7 offset-md-1 offset-xl-0">
@@ -210,12 +237,28 @@
             </div>
           </div>
         </div>
+      </section> -->
+
+      <!-- About-->
+      <section class="container position-relative zindex-5" style="margin-top: -175px;">
+        <div class="bg-light rounded-3 shadow py-5 py-md-6 px-4 px-md-0">
+          <div class="row align-items-center py-3 py-md-0">
+            <div class="col-xl-6 col-lg-5 col-md-4 text-center">
+              <h2 class="pb-3 pb-md-0"><span class="d-block text-body opacity-25">Something</span>About Us</h2>
+            </div>
+            <div class="col-xl-5 col-lg-6 col-md-7 text-center text-md-start">
+              <p>Switch is focused on developing pay-as-you-go solar projects for underdeveloped regions of Nigeria and other developing countries where electrification is poor or unavailable. This allows our customers to have easy access to the clean energy they need at a fraction of the cost while facilitating investments in climate friendly energies..</p>
+              <p class="mb-0">We have developed custom pre-paid meters 3 enabled with wireless internet communication, which would allow them to integrate with the blockchain.</p>
+            </div>
+          </div>
+        </div>
       </section>
+
       <!-- Image + Text-->
       <section class="container pt-6 pt-md-7 mt-lg-3 mb-md-n4 mb-lg-n5">
         <div class="row align-items-center pt-xl-3">
           <div class="col-md-6 col-lg-5 offset-lg-1" data-jarallax-element="25" data-disable-parallax-down="md">
-            <div class="mx-auto mx-md-0" style="max-width: 495px;"><img class="rounded-3" src="img/Switch-meters/IMG_3005.jpg" alt="Image"></div>
+            <div class="mx-auto mx-md-0" style="max-width: 495px;"><img class="rounded-3" src="img/Switch-meters/IMG_3001-removebg-preview.png" alt="Image"></div>
           </div>
           <div class="col-md-6 col-lg-5 py-5" data-jarallax-element="-15" data-disable-parallax-down="md">
             <div class="mx-auto" style="max-width: 370px;">
@@ -235,7 +278,7 @@
       <section class="container pb-5 mb-3 mb-md-0 pb-md-7">
         <div class="row align-items-center">
           <div class="col-md-6 col-lg-5 order-md-2" data-jarallax-element="-40" data-disable-parallax-down="md">
-            <div class="mx-auto mx-md-0" style="max-width: 495px;"><img class="rounded-3" src="img/Switch-meters/IMG_3004.jpg" alt="Image"></div>
+            <div class="mx-auto mx-md-0" style="max-width: 495px;"><img class="rounded-3" src="img/Switch-meters/IMG_3002-removebg-preview.png" alt="Image"></div>
           </div>
           <div class="col-md-6 col-lg-5 offset-lg-1 order-md-1 pt-5 pt-md-7 pb-md-5" data-jarallax-element="40" data-disable-parallax-down="md">
             <div class="mx-auto" style="max-width: 370px;">
@@ -281,7 +324,7 @@
       </section>
       <!-- Icon + text-->
       <section class="container pt-5 pb-4 mt-3 mt-md-0 mb-md-3 pb-md-5 pt-md-7">
-        <h2 class="text-center mb-5">Good habits for oral health</h2>
+        <h2 class="text-center mb-5">Why you Should Switch ?</h2>
         <div class="row">
           <div class="col-sm-6 col-md-4">
             <div class="mx-auto mb-5 text-center" style="max-width: 280px;"><img class="mb-3" src="img/demo/gadget-landing/icons/toothpaste.svg" alt="Icon" width="112">
@@ -577,8 +620,9 @@
       <div class="container pt-3 pt-md-0">
         <div class="row pb-3">
           <div class="col-md-4 mt-n2 pb-3 pb-md-0 mb-4"><a class="d-block mb-3" href="index.html" style="width: 153px;"><img src="img/branding/Switch Electric SVG color.svg" alt="Around"></a>
-            <p class="fs-sm text-light opacity-60 pb-2 pb-sm-3">Switch makes it possible for her clients to completely move off-grid and off-diesel forever, through her Solar Electricity Service. It's actually as easy as a monthly subscription fee. Our clients receive top-notch electrification service, plus a comprehensive property insurance and full-time technical support.
-                But that's not all, what really makes Switch stand out is it's ability to deliver on both Performance and Beauty. Each project is monumentalize by one of our beautify solar shelter. They stand as a symbol of our clients desire for Innovation, Elegance & Independence</p><a class="btn-social bs-outline bs-facebook bs-light bs-lg me-2 mb-2" href="#"><i class="ai-facebook"></i></a><a class="btn-social bs-outline bs-twitter bs-light bs-lg me-2 mb-2" href="#"><i class="ai-twitter"></i></a><a class="btn-social bs-outline bs-instagram bs-light bs-lg me-2 mb-2" href="#"><i class="ai-instagram"></i></a><a class="btn-social bs-outline bs-google bs-light bs-lg me-2 mb-2" href="#"><i class="ai-google"></i></a>
+            <p class="fs-sm text-light opacity-60 pb-2 pb-sm-3">
+              Switch makes it possible for her clients to completely move off-grid and off-diesel forever, through her Solar Electricity Service. It's actually as easy as a monthly subscription fee. Our clients receive top-notch electrification service, plus a comprehensive property insurance and full-time technical support.
+              </p><a class="btn-social bs-outline bs-facebook bs-light bs-lg me-2 mb-2" href="#"><i class="ai-facebook"></i></a><a class="btn-social bs-outline bs-twitter bs-light bs-lg me-2 mb-2" href="#"><i class="ai-twitter"></i></a><a class="btn-social bs-outline bs-instagram bs-light bs-lg me-2 mb-2" href="#"><i class="ai-instagram"></i></a><a class="btn-social bs-outline bs-google bs-light bs-lg me-2 mb-2" href="#"><i class="ai-google"></i></a>
           </div>
           <div class="col-md-2 col-sm-4 ms-auto pb-1 mb-4">
             <div class="widget widget-light">
