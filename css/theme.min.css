@@ -948,7 +948,7 @@
   --bs-primary: #3b7733;
   --bs-secondary: #f07f2f;
   --bs-success: #16c995;
-  --bs-info: #6a9bf4;
+  --bs-info: #f07f2f;
   --bs-warning: #ffb15c;
   --bs-danger: #f74f78;
   --bs-light: #fff;
@@ -966,7 +966,7 @@
   --bs-body-rgb: 115, 116, 145;
   --bs-font-sans-serif: "Inter", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --bs-gradient: linear-gradient(to right, #3b7733 0%, #3b7733 30%, #6a9bf4 100%);
+  --bs-gradient: linear-gradient(to right, #3b7733 0%, #3b7733 30%, #f07f2f 100%);
   --bs-body-font-family: var(--bs-font-sans-serif);
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
@@ -3825,8 +3825,8 @@ fieldset:disabled .btn {
 }
 .btn-info {
   color: #000;
-  background-color: #6a9bf4;
-  border-color: #6a9bf4;
+  background-color: #f07f2f;
+  border-color: #f07f2f;
   box-shadow: unset;
 }
 .btn-info:hover {
@@ -3860,8 +3860,8 @@ fieldset:disabled .btn {
 .btn-info:disabled,
 .btn-info.disabled {
   color: #000;
-  background-color: #6a9bf4;
-  border-color: #6a9bf4;
+  background-color: #f07f2f;
+  border-color: #f07f2f;
 }
 .btn-warning {
   color: #000;
@@ -4126,13 +4126,13 @@ fieldset:disabled .btn {
   background-color: transparent;
 }
 .btn-outline-info {
-  color: #6a9bf4;
-  border-color: #6a9bf4;
+  color: #f07f2f;
+  border-color: #f07f2f;
 }
 .btn-outline-info:hover {
   color: #000;
-  background-color: #6a9bf4;
-  border-color: #6a9bf4;
+  background-color: #f07f2f;
+  border-color: #f07f2f;
 }
 .btn-check:focus + .btn-outline-info,
 .btn-outline-info:focus {
@@ -4144,8 +4144,8 @@ fieldset:disabled .btn {
 .btn-outline-info.active,
 .btn-outline-info.dropdown-toggle.show {
   color: #000;
-  background-color: #6a9bf4;
-  border-color: #6a9bf4;
+  background-color: #f07f2f;
+  border-color: #f07f2f;
 }
 .btn-check:checked + .btn-outline-info:focus,
 .btn-check:active + .btn-outline-info:focus,
@@ -4156,7 +4156,7 @@ fieldset:disabled .btn {
 }
 .btn-outline-info:disabled,
 .btn-outline-info.disabled {
-  color: #6a9bf4;
+  color: #f07f2f;
   background-color: transparent;
 }
 .btn-outline-warning {
@@ -5684,7 +5684,7 @@ fieldset:disabled .btn {
   color: #12a177;
 }
 .alert-info {
-  color: #6a9bf4;
+  color: #f07f2f;
   background-color: #f3f7fe;
   border-color: #e1ebfd;
 }
@@ -6032,18 +6032,18 @@ fieldset:disabled .btn {
   border-color: #16c995;
 }
 .list-group-item-info {
-  color: #6a9bf4;
+  color: #f07f2f;
   background-color: #f0f5fe;
 }
 .list-group-item-info.list-group-item-action:hover,
 .list-group-item-info.list-group-item-action:focus {
-  color: #6a9bf4;
+  color: #f07f2f;
   background-color: #d8dde5;
 }
 .list-group-item-info.list-group-item-action.active {
   color: #fff;
-  background-color: #6a9bf4;
-  border-color: #6a9bf4;
+  background-color: #f07f2f;
+  border-color: #f07f2f;
 }
 .list-group-item-warning {
   color: #ffb15c;
@@ -7116,7 +7116,7 @@ fieldset:disabled .btn {
   color: #45d4aa;
 }
 .link-info {
-  color: #6a9bf4;
+  color: #f07f2f;
 }
 .link-info:hover,
 .link-info:focus {
@@ -8472,7 +8472,7 @@ fieldset:disabled .btn {
   color: #16c995 !important;
 }
 .text-info {
-  color: #6a9bf4 !important;
+  color: #f07f2f !important;
 }
 .text-warning {
   color: #ffb15c !important;
@@ -13889,14 +13889,14 @@ input[type="search"]::-webkit-search-results-decoration {
   background-color: #16c995;
 }
 .btn-translucent-info {
-  color: #6a9bf4;
+  color: #f07f2f;
 }
 .btn-translucent-info:hover,
 .btn-translucent-info:focus,
 .btn-translucent-info:active,
 .btn-translucent-info.active,
 .btn-translucent-info.show {
-  background-color: #6a9bf4;
+  background-color: #f07f2f;
 }
 .btn-translucent-warning {
   color: #ffb15c;
@@ -13952,7 +13952,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 .btn-gradient {
   background-color: #3b7733;
-  background-image: linear-gradient(to right, #3b7733 0%, #3b7733 30%, #6a9bf4 100%);
+  background-image: linear-gradient(to right, #3b7733 0%, #3b7733 30%, #f07f2f 100%);
 }
 .btn-gradient,
 .btn-gradient:hover,
@@ -16667,8 +16667,8 @@ a.card-floating-icon:hover {
   background-color: rgba(106, 155, 244, 0.2);
 }
 .list-group-item-info.active {
-  background-color: #6a9bf4 !important;
-  border-color: #6a9bf4;
+  background-color: #f07f2f !important;
+  border-color: #f07f2f;
   box-shadow: none;
 }
 .list-group-item-action.list-group-item-warning:hover,
