@@ -934,14 +934,14 @@
   --bs-teal: #20c997;
   --bs-cyan: #0dcaf0;
   --bs-white: #fff;
-  --bs-gray: #737491;
+  --bs-gray: #3b7733;
   --bs-gray-dark: #4a4b65;
   --bs-gray-100: #f07f2f;
   --bs-gray-200: #f3f3f9;
   --bs-gray-300: #e9e9f2;
   --bs-gray-400: #dfdfeb;
   --bs-gray-500: #9e9fb4;
-  --bs-gray-600: #737491;
+  --bs-gray-600: #3b7733;
   --bs-gray-700: #5a5b75;
   --bs-gray-800: #4a4b65;
   --bs-gray-900: #37384e;
@@ -971,7 +971,7 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #737491;
+  --bs-body-color: #3b7733;
   --bs-body-bg: #fff;
 }
 *,
@@ -1469,7 +1469,7 @@ progress {
 }
 .figure-caption {
   font-size: 0.8125rem;
-  color: #737491;
+  color: #3b7733;
 }
 .container,
 .container-fluid,
@@ -2686,15 +2686,15 @@ progress {
 .table {
   --bs-table-bg: transparent;
   --bs-table-accent-bg: transparent;
-  --bs-table-striped-color: #737491;
+  --bs-table-striped-color: #3b7733;
   --bs-table-striped-bg: rgba(0, 0, 0, 0.0375);
-  --bs-table-active-color: #737491;
+  --bs-table-active-color: #3b7733;
   --bs-table-active-bg: rgba(0, 0, 0, 0.05);
-  --bs-table-hover-color: #737491;
+  --bs-table-hover-color: #3b7733;
   --bs-table-hover-bg: rgba(0, 0, 0, 0.05);
   width: 100%;
   margin-bottom: 1rem;
-  color: #737491;
+  color: #3b7733;
   vertical-align: top;
   border-color: #e9e9f2;
 }
@@ -2899,7 +2899,7 @@ progress {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #737491;
+  color: #3b7733;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #dfdfeb;
@@ -2922,7 +2922,7 @@ progress {
   cursor: pointer;
 }
 .form-control:focus {
-  color: #737491;
+  color: #3b7733;
   background-color: #fff;
   border-color: rgba(118, 109, 244, 0.35);
   outline: 0;
@@ -2998,7 +2998,7 @@ progress {
   padding: 0.5625rem 0;
   margin-bottom: 0;
   line-height: 1.5;
-  color: #737491;
+  color: #3b7733;
   background-color: transparent;
   border: solid transparent;
   border-width: 1px 0;
@@ -3077,7 +3077,7 @@ textarea.form-control-lg {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #737491;
+  color: #3b7733;
   background-color: #fff;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%234a4b65' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
@@ -3111,7 +3111,7 @@ textarea.form-control-lg {
 }
 .form-select:-moz-focusring {
   color: transparent;
-  text-shadow: 0 0 0 #737491;
+  text-shadow: 0 0 0 #3b7733;
 }
 .form-select-sm {
   padding-top: 0.425rem;
@@ -3190,7 +3190,7 @@ textarea.form-control-lg {
   opacity: 0.5;
 }
 .form-check-label {
-  color: #737491;
+  color: #3b7733;
 }
 .form-switch {
   padding-left: 2.75em;
@@ -3419,7 +3419,7 @@ textarea.form-control-lg {
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.5;
-  color: #737491;
+  color: #3b7733;
   text-align: center;
   white-space: nowrap;
   background-color: #fff;
@@ -3655,7 +3655,7 @@ textarea.form-control.is-invalid {
   display: inline-block;
   font-weight: 500;
   line-height: 1.5;
-  color: #737491;
+  color: #3b7733;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -3676,7 +3676,7 @@ textarea.form-control.is-invalid {
   }
 }
 .btn:hover {
-  color: #737491;
+  color: #3b7733;
   text-decoration: none;
 }
 .btn-check:focus + .btn,
@@ -4309,7 +4309,7 @@ fieldset:disabled .btn {
 }
 .btn-link:disabled,
 .btn-link.disabled {
-  color: #737491;
+  color: #3b7733;
 }
 .btn-lg,
 .btn-group-lg > .btn {
@@ -4374,7 +4374,7 @@ fieldset:disabled .btn {
   padding: 0.5rem 0;
   margin: 0;
   font-size: 1rem;
-  color: #737491;
+  color: #3b7733;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -5577,7 +5577,7 @@ fieldset:disabled .btn {
   border-color: rgba(118, 109, 244, 0.35);
 }
 .page-item.disabled .page-link {
-  color: #737491;
+  color: #3b7733;
   pointer-events: none;
   background-color: #fff;
   border-color: #e9e9f2;
@@ -6166,7 +6166,7 @@ fieldset:disabled .btn {
   display: flex;
   align-items: center;
   padding: 0.5rem 1rem;
-  color: #737491;
+  color: #3b7733;
   background-color: rgba(255, 255, 255, 0.85);
   background-clip: padding-box;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
@@ -6696,7 +6696,7 @@ fieldset:disabled .btn {
 }
 .popover-body {
   padding: 1rem 1rem;
-  color: #737491;
+  color: #3b7733;
 }
 .carousel {
   position: relative;
@@ -6776,7 +6776,7 @@ fieldset:disabled .btn {
   justify-content: center;
   width: 15%;
   padding: 0;
-  color: #737491;
+  color: #3b7733;
   text-align: center;
   background: none;
   border: 0;
@@ -6793,7 +6793,7 @@ fieldset:disabled .btn {
 .carousel-control-prev:focus,
 .carousel-control-next:hover,
 .carousel-control-next:focus {
-  color: #737491;
+  color: #3b7733;
   text-decoration: none;
   outline: 0;
   opacity: 1;
@@ -8490,7 +8490,7 @@ fieldset:disabled .btn {
   color: #fff !important;
 }
 .text-body {
-  color: #737491 !important;
+  color: #3b7733 !important;
 }
 .text-muted {
   color: #9e9fb4 !important;
@@ -13421,7 +13421,7 @@ input[type="search"]::-webkit-search-results-decoration {
   content: "";
 }
 .password-toggle-btn .password-toggle-indicator:hover {
-  color: #737491;
+  color: #3b7733;
 }
 .password-toggle-btn .password-toggle-check {
   position: absolute;
@@ -16592,7 +16592,7 @@ a.card-floating-icon:hover {
 }
 .alert-secondary,
 .alert-light {
-  color: #737491;
+  color: #3b7733;
 }
 .alert-secondary .alert-link,
 .alert-light .alert-link {
@@ -17068,7 +17068,7 @@ a.card-floating-icon:hover {
   border: 1px solid #e9e9f2;
   border-radius: 0.75rem;
   background-color: #fff;
-  color: #737491;
+  color: #3b7733;
   font-size: 1.25rem;
   text-align: center;
 }
@@ -18105,7 +18105,7 @@ _:-ms-lang(x),
 }
 .range-slider-ui .noUi-value {
   padding-top: 0.125rem;
-  color: #737491;
+  color: #3b7733;
   font-size: 0.8125rem;
 }
 .range-slider-ui .noUi-tooltip {
@@ -18127,7 +18127,7 @@ html:not([dir="rtl"]) .range-slider-ui.noUi-horizontal .noUi-handle {
   border: 1px solid #e9e9f2;
   border-radius: 0.5rem;
   background-color: #fff;
-  color: #737491;
+  color: #3b7733;
   font-size: 0.8125rem;
   font-weight: 500;
   text-decoration: none;
@@ -18370,7 +18370,7 @@ html:not([dir="rtl"]) .range-slider-ui.noUi-horizontal .noUi-handle {
   transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
   border-radius: 0.5rem;
   background-color: #f07f2f;
-  color: #737491;
+  color: #3b7733;
   white-space: nowrap;
   font-size: 0.875rem;
   font-weight: 500;
