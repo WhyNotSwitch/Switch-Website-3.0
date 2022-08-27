@@ -9,3 +9,7 @@
 .brand-orange{
     background-color: #F07F2F;
 }
+
+.accordion-button{
+    font-size: 1.325rem !important;
+}
