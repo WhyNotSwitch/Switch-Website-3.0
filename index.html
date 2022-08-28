@@ -208,8 +208,6 @@
         </div>
       </div>
 
-
-
       <!-- Navbar (Solid background)-->
       <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page.-->
       <header class="header navbar navbar-expand-lg navbar-light bg-light navbar-sticky" data-scroll-header data-fixed-element>
@@ -271,10 +269,11 @@
             </div>
             <div class="col-lg-7">
               <div class="parallax mx-auto" style="max-width: 705px;"  id="aboutUs">
-                <div class="parallax-layer position-relative" data-depth="0.1"><img src="img/Switch-meters/IMG_3003-removebg-preview.png" alt="Layer"></div>
-               
-
+                <div class="parallax-layer position-relative" data-depth="0.3">
+                  <img src="img/Switch-meters/new1-removebg-preview.png" alt="Layer">
+                </div>
               </div>
+             <!-- Add as many layers as you need with different data-depth parameters for more 3D-like effect. Make sure add position-relative to biggest layer to keep width and height of the whole scene. -->
             </div>
           </div>
         </div>
@@ -345,6 +344,106 @@
         </div>
       </section>
 
+      <!-- Combine hotspots with color switcher -->
+      <div class="hotspots" id="hotspots-container-2">
+
+        <!-- Image (radio) tabs -->
+        <div class="radio-tab-pane active" id="red" role="tabpanel">
+          <img class="select" src="img/Switch-meters/1-crop.png" alt="Image"/>
+        </div>
+        <div class="radio-tab-pane" id="orange" role="tabpanel">
+          <img class="select" src="img/Switch-meters/3-crop.png" alt="Image"/>
+        </div>
+        <div class="radio-tab-pane" id="yellow" role="tabpanel">
+          <img class="select" src="img/Switch-meters/10-crop.png" alt="Image"/>
+        </div>
+        <div class="radio-tab-pane" id="blue" role="tabpanel">
+          <img class="select" src="img/Switch-meters/6-crop.png" alt="Image"/>
+        </div>
+        <div class="radio-tab-pane" id="green" role="tabpanel">
+          <img class="select" src="img/Switch-meters/9-crop.png" alt="Image"/>
+        </div>
+        <div class="radio-tab-pane" id="purple" role="tabpanel">
+          <img class="select" src="img/Switch-meters/5-crop.png" alt="Image"/>
+        </div>
+        <div class="radio-tab-pane" id="white" role="tabpanel">
+          <img class="select" src="img/Switch-meters/2-crop.png" alt="Image"/>
+        </div>
+        <div class="radio-tab-pane" id="black" role="tabpanel">
+          <img class="select" src="img/Switch-meters/12-crop.png" alt="Image"/>
+        </div>
+      </div>
+
+      <!-- Color radio buttons -->
+      <div class="text-center pt-grid-gutter">
+        <div class="d-inline-flex bg-light rounded py-2 px-3">
+
+          <!-- Radio -->
+          <div class="form-check form-option form-option-color form-check-inline mx-1">
+            <input class="form-check-input" type="radio" name="color" id="c-red" value="red" checked>
+            <label class="form-option-label rounded-circle" for="c-red" data-bs-toggle="radioTab" data-bs-target="#red" data-bs-parent="#hotspots-container-2">
+              <span class="form-option-color-indicator rounded-circle" style="background-color: #ff6d56;"></span>
+            </label>
+          </div>
+
+          <!-- Radio -->
+          <div class="form-check form-option form-option-color form-check-inline mx-1">
+            <input class="form-check-input" type="radio" name="color" id="c-orange" value="orange">
+            <label class="form-option-label rounded-circle" for="c-orange" data-bs-toggle="radioTab" data-bs-target="#orange" data-bs-parent="#hotspots-container-2">
+              <span class="form-option-color-indicator rounded-circle" style="background-color: #fa9233;"></span>
+            </label>
+          </div>
+
+          <!-- Radio -->
+          <div class="form-check form-option form-option-color form-check-inline mx-1">
+            <input class="form-check-input" type="radio" name="color" id="c-yellow" value="yellow">
+            <label class="form-option-label rounded-circle" for="c-yellow" data-bs-toggle="radioTab" data-bs-target="#yellow" data-bs-parent="#hotspots-container-2">
+              <span class="form-option-color-indicator rounded-circle" style="background-color: #ffbe0a;"></span>
+            </label>
+          </div>
+
+          <!-- Radio -->
+          <div class="form-check form-option form-option-color form-check-inline mx-1">
+            <input class="form-check-input" type="radio" name="color" id="c-blue" value="blue">
+            <label class="form-option-label rounded-circle" for="c-blue" data-bs-toggle="radioTab" data-bs-target="#blue" data-bs-parent="#hotspots-container-2">
+              <span class="form-option-color-indicator rounded-circle" style="background-color: #57b7dd;"></span>
+            </label>
+          </div>
+
+          <!-- Radio -->
+          <div class="form-check form-option form-option-color form-check-inline mx-1">
+            <input class="form-check-input" type="radio" name="color" id="c-green" value="Green">
+            <label class="form-option-label rounded-circle" for="c-green" data-bs-toggle="radioTab" data-bs-target="#green" data-bs-parent="#hotspots-container-2">
+              <span class="form-option-color-indicator rounded-circle" style="background-color: #8ac539;"></span>
+            </label>
+          </div>
+
+          <!-- Radio -->
+          <div class="form-check form-option form-option-color form-check-inline mx-1">
+            <input class="form-check-input" type="radio" name="color" id="c-purple" value="purple">
+            <label class="form-option-label rounded-circle" for="c-purple" data-bs-toggle="radioTab" data-bs-target="#purple" data-bs-parent="#hotspots-container-2">
+              <span class="form-option-color-indicator rounded-circle" style="background-color: #a98cbc;"></span>
+            </label>
+          </div>
+
+          <!-- Radio -->
+          <div class="form-check form-option form-option-color form-check-inline mx-1">
+            <input class="form-check-input" type="radio" name="color" id="c-white" value="white">
+            <label class="form-option-label rounded-circle" for="c-white" data-bs-toggle="radioTab" data-bs-target="#white" data-bs-parent="#hotspots-container-2">
+              <span class="form-option-color-indicator rounded-circle" style="background-color: #dddddd;"></span>
+            </label>
+          </div>
+
+          <!-- Radio -->
+          <div class="form-check form-option form-option-color form-check-inline mx-1">
+            <input class="form-check-input" type="radio" name="color" id="c-black" value="black">
+            <label class="form-option-label rounded-circle" for="c-black" data-bs-toggle="radioTab" data-bs-target="#black" data-bs-parent="#hotspots-container-2">
+              <span class="form-option-color-indicator rounded-circle" style="background-color: #000000;"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+
       <!-- Image + Text-->
       <!-- <section class="container  pt-md-6 mt-lg-3 mb-md-n4 mb-lg-n5" id="ourMission">
         <div class="row align-items-center pt-xl-3">
@@ -389,7 +488,7 @@
         <p class="text-center text-muted mb-0">We provide wide range of services in our metering service</p>
          <!-- Web Dev Service-->
         <div class="row align-items-center border-bottom py-5">
-          <div class="col-md-6 offset-lg-1 py-3 order-md-2"><img class="d-block mx-auto" src="img/branding/Switch meter.png" alt="Web Development" /></div>
+          <div class="col-md-6 offset-lg-1 py-3 order-md-2"><img class="d-block mx-auto" src="img/Switch-meters/new2.png" alt="Web Development" /></div>
           <div class="col-xl-4 col-lg-5 col-md-6 offset-xl-1 py-3 order-md-1">
             <h3 class="h4 mb-4">DATA & COMMUNICATIONS</h3>
             <p class="pb-2">Maxwell 1.0 is a fully cellular connected smart meter that uses 3G/4G networks to send energy data and notifications directly to our backend & analytics services. This cellular connection is free,
@@ -917,8 +1016,11 @@
     <script src="vendor/jarallax/dist/jarallax.min.js"></script>
     <script src="vendor/jarallax/dist/jarallax-element.min.js"></script>
     <script src="vendor/tiny-slider/dist/min/tiny-slider.js"></script>
+    <script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="vendor/shufflejs/dist/shuffle.min.js"></script>
     <script src="vendor/lightgallery.js/dist/js/lightgallery.min.js"></script>
     <script src="vendor/lg-video.js/dist/lg-video.min.js"></script>
+    <script src="vendor/parallax-js/dist/parallax.min.js"></script>
     <!-- Main theme script-->
     <script src="js/theme.min.js"></script>
     
