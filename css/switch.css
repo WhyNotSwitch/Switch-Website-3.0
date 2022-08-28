@@ -13,3 +13,10 @@
 .accordion-button{
     font-size: 1.325rem !important;
 }
+
+@media (min-width: 992px)
+{
+    .pb-lg-0 {
+        padding-left: 7.5rem !important;
+    }
+}
