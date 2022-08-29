@@ -269,7 +269,7 @@
             </div>
             <div class="col-lg-7">
               <div class="parallax mx-auto" style="max-width: 705px;"  id="aboutUs">
-                <div class="parallax-layer position-relative" data-depth="0.3">
+                <div class="parallax-layer position-relative" data-depth="0">
                   <img src="img/Switch-meters/new1-removebg-preview.png" alt="Layer">
                 </div>
               </div>
@@ -348,7 +348,10 @@
       <div class="hotspots" id="hotspots-container-2">
 
         <!-- Image (radio) tabs -->
-        <div class="radio-tab-pane active" id="red" role="tabpanel">
+        <div class="radio-tab-pane active" id="white" role="tabpanel">
+          <img class="select" src="img/Switch-meters/2-crop.png" alt="Image"/>
+        </div>
+        <div class="radio-tab-pane" id="red" role="tabpanel">
           <img class="select" src="img/Switch-meters/1-crop.png" alt="Image"/>
         </div>
         <div class="radio-tab-pane" id="orange" role="tabpanel">
@@ -357,26 +360,28 @@
         <div class="radio-tab-pane" id="yellow" role="tabpanel">
           <img class="select" src="img/Switch-meters/10-crop.png" alt="Image"/>
         </div>
-        <div class="radio-tab-pane" id="blue" role="tabpanel">
-          <img class="select" src="img/Switch-meters/6-crop.png" alt="Image"/>
-        </div>
         <div class="radio-tab-pane" id="green" role="tabpanel">
           <img class="select" src="img/Switch-meters/9-crop.png" alt="Image"/>
         </div>
+        <div class="radio-tab-pane" id="blue" role="tabpanel">
+          <img class="select" src="img/Switch-meters/6-crop.png" alt="Image"/>
+        </div>
         <div class="radio-tab-pane" id="purple" role="tabpanel">
           <img class="select" src="img/Switch-meters/5-crop.png" alt="Image"/>
-        </div>
-        <div class="radio-tab-pane" id="white" role="tabpanel">
-          <img class="select" src="img/Switch-meters/2-crop.png" alt="Image"/>
-        </div>
-        <div class="radio-tab-pane" id="black" role="tabpanel">
-          <img class="select" src="img/Switch-meters/12-crop.png" alt="Image"/>
         </div>
       </div>
 
       <!-- Color radio buttons -->
       <div class="text-center pt-grid-gutter">
         <div class="d-inline-flex bg-light rounded py-2 px-3">
+
+          <!-- Radio -->
+          <div class="form-check form-option form-option-color form-check-inline mx-1">
+            <input class="form-check-input" type="radio" name="color" id="c-white" value="white">
+            <label class="form-option-label rounded-circle" for="c-white" data-bs-toggle="radioTab" data-bs-target="#white" data-bs-parent="#hotspots-container-2">
+              <span class="form-option-color-indicator rounded-circle" style="background-color: #dddddd;"></span>
+            </label>
+          </div>
 
           <!-- Radio -->
           <div class="form-check form-option form-option-color form-check-inline mx-1">
@@ -404,17 +409,17 @@
 
           <!-- Radio -->
           <div class="form-check form-option form-option-color form-check-inline mx-1">
-            <input class="form-check-input" type="radio" name="color" id="c-blue" value="blue">
-            <label class="form-option-label rounded-circle" for="c-blue" data-bs-toggle="radioTab" data-bs-target="#blue" data-bs-parent="#hotspots-container-2">
-              <span class="form-option-color-indicator rounded-circle" style="background-color: #57b7dd;"></span>
+            <input class="form-check-input" type="radio" name="color" id="c-green" value="Green">
+            <label class="form-option-label rounded-circle" for="c-green" data-bs-toggle="radioTab" data-bs-target="#green" data-bs-parent="#hotspots-container-2">
+              <span class="form-option-color-indicator rounded-circle" style="background-color: #8ac539;"></span>
             </label>
           </div>
 
           <!-- Radio -->
           <div class="form-check form-option form-option-color form-check-inline mx-1">
-            <input class="form-check-input" type="radio" name="color" id="c-green" value="Green">
-            <label class="form-option-label rounded-circle" for="c-green" data-bs-toggle="radioTab" data-bs-target="#green" data-bs-parent="#hotspots-container-2">
-              <span class="form-option-color-indicator rounded-circle" style="background-color: #8ac539;"></span>
+            <input class="form-check-input" type="radio" name="color" id="c-blue" value="blue">
+            <label class="form-option-label rounded-circle" for="c-blue" data-bs-toggle="radioTab" data-bs-target="#blue" data-bs-parent="#hotspots-container-2">
+              <span class="form-option-color-indicator rounded-circle" style="background-color: #57b7dd;"></span>
             </label>
           </div>
 
@@ -425,23 +430,8 @@
               <span class="form-option-color-indicator rounded-circle" style="background-color: #a98cbc;"></span>
             </label>
           </div>
-
-          <!-- Radio -->
-          <div class="form-check form-option form-option-color form-check-inline mx-1">
-            <input class="form-check-input" type="radio" name="color" id="c-white" value="white">
-            <label class="form-option-label rounded-circle" for="c-white" data-bs-toggle="radioTab" data-bs-target="#white" data-bs-parent="#hotspots-container-2">
-              <span class="form-option-color-indicator rounded-circle" style="background-color: #dddddd;"></span>
-            </label>
-          </div>
-
-          <!-- Radio -->
-          <div class="form-check form-option form-option-color form-check-inline mx-1">
-            <input class="form-check-input" type="radio" name="color" id="c-black" value="black">
-            <label class="form-option-label rounded-circle" for="c-black" data-bs-toggle="radioTab" data-bs-target="#black" data-bs-parent="#hotspots-container-2">
-              <span class="form-option-color-indicator rounded-circle" style="background-color: #000000;"></span>
-            </label>
-          </div>
         </div>
+        <img src="img/Switch-meters/new2-crop.png" class="select" style="width: 40% !important;" alt="Gallery thumbnail">
       </div>
 
       <!-- Image + Text-->
@@ -484,22 +474,25 @@
 
       <!-- Services-->
       <section class="container pt-5 pt-lg-6">
-        <h2 class="text-center">What we offer</h2>
-        <p class="text-center text-muted mb-0">We provide wide range of services in our metering service</p>
-         <!-- Web Dev Service-->
-        <div class="row align-items-center border-bottom py-5">
-          <div class="col-md-6 offset-lg-1 py-3 order-md-2"><img class="d-block mx-auto" src="img/Switch-meters/new2.png" alt="Web Development" /></div>
-          <div class="col-xl-4 col-lg-5 col-md-6 offset-xl-1 py-3 order-md-1">
-            <h3 class="h4 mb-4">DATA & COMMUNICATIONS</h3>
-            <p class="pb-2">Maxwell 1.0 is a fully cellular connected smart meter that uses 3G/4G networks to send energy data and notifications directly to our backend & analytics services. This cellular connection is free,
-              and enables consumers and utilities to access their meter data remotely, regardless of location or time of day. With the new wireless capability, consumers can get automatic payment confirmations and low balance notifications.
-            </p>
-          </div>
-        </div>
         <!-- RWD Service-->
         <div class="row align-items-center border-bottom py-5">
-          <div class="col-md-6 py-3"><img class="d-block mx-auto" src="img/branding/prototype-board-removebg-preview.png" alt="HARDWARE FUNCTIONALITY" /></div>
-          <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 py-3">
+          <!-- Browser frame -->
+          <div class="col-md-6 py-3" style="display: block; margin: auto;">
+            <div class="frame-browser">
+              <div class="frame-browser-toolbar">
+                <div class="text-nowrap me-3">
+                  <span class="frame-browser-button bg-danger"></span>
+                  <span class="frame-browser-button bg-warning"></span>
+                  <span class="frame-browser-button bg-success"></span>
+                </div>
+                <span class="fs-sm">https://datastream.whynotswitch.com</span>
+              </div>
+              <div class="frame-browser-body">
+                <img class="d-block mx-auto" src="img/branding/Screenshot 2022-06-07 at 17-08-22 Smart Meter Demo - Switch Electric Ltd.png" alt="Screenshot"/>
+              </div>
+            </div>
+          </div>
+            <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 py-3">
             <h3 class="h4 mb-4">HARDWARE FUNCTIONALITY</h3>
             <ul class="list-unstyled">
               <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>100A maximum current</span></li>
@@ -515,35 +508,11 @@
             </ul>
           </div>
         </div>
-        <!-- Web Dev Service-->
-        <div class="row align-items-center border-bottom py-5">
-          <!-- Browser frame -->
-          <div class="col-md-6 offset-lg-1 py-3 order-md-2">
-            <div class="frame-browser">
-              <div class="frame-browser-toolbar">
-                <div class="text-nowrap me-3">
-                  <span class="frame-browser-button bg-danger"></span>
-                  <span class="frame-browser-button bg-warning"></span>
-                  <span class="frame-browser-button bg-success"></span>
-                </div>
-                <span class="fs-sm">https://pay.whynotswitch.com</span>
-              </div>
-              <div class="frame-browser-body">
-                <img class="d-block mx-auto" src="img/branding/payments.jpg" alt="Screenshot"/>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-4 col-lg-5 col-md-6 offset-xl-1 py-3 order-md-1">
-            <h3 class="h4 mb-4">BILLING & PRE-PAYMENT</h3>
-             <p class="pb-2">Our meters also come in pre-paid mode and our top-up process is as simple as a bank transfer. So there is no risk of customers defaulting on payments. Our mobile apps also provide the users the ability to visualize their energy use, communicate with customers, support, and manage billing all in one place.
-            </p>
-          </div>
-        </div>
 
         <!-- Web Dev Service-->
         <div class="row align-items-center border-bottom py-5">
           <!-- Browser frame -->
-          <div class="col-md-6 py-3">
+          <div class="col-md-6 offset-lg-1 py-3 order-md-2">
             <div class="frame-browser">
               <div class="frame-browser-toolbar">
                 <div class="text-nowrap me-3">
@@ -558,7 +527,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-5 col-md-6 offset-xl-1 py-3 order-md-1">
+          <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 py-3">
             <h3 class="h4 mb-4">BACKEND & ANALYTICS</h3>
             <ul class="list-unstyled">
               <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Reporting</span></li>
@@ -571,47 +540,6 @@
               <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Performance Benchmark</span></li>
               <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Remote Asset Administration</span></li>
             </ul>
-            
-          </div>
-        </div>
-        <!-- Mobile Dev Service-->
-        <div class="row align-items-center border-bottom py-5">
-          <div class="col-md-6 offset-lg-1 py-3 order-md-2"><img class="d-block mx-auto" src="img/branding/wicrpty rot2.jfif" alt="Mobile Apps Development" /></div>
-          <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 py-3">
-            <h3 class="h4 mb-4">GET A FREE WICRYPT ROUTER ON INSTALLATION</h3>
-            <ul class="list-unstyled">
-              <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Get a free wicrypt Mifi</span></li>
-              <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Mine $WNT TOKENS</span></li>
-              <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Swap $WNT to Naira or eNaira</span></li>
-            </ul>
-            
-          </div>
-        </div>
-        <!-- Web Dev Service-->
-        <div class="row align-items-center border-bottom py-5">
-          <div class="col-md-6 py-3">
-            <div class="frame-browser">
-              <div class="frame-browser-toolbar">
-                <div class="text-nowrap me-3">
-                  <span class="frame-browser-button bg-danger"></span>
-                  <span class="frame-browser-button bg-warning"></span>
-                  <span class="frame-browser-button bg-success"></span>
-                </div>
-                <span class="fs-sm">https://nft.whynotswitch.com</span>
-              </div>
-              <div class="frame-browser-body">
-                <img class="d-block mx-auto" src="img/branding/nft2.jpg" alt="Screenshot"/>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-4 col-lg-5 col-md-6 offset-xl-1 py-3 order-md-1">
-            <h3 class="h4 mb-4">GET A SWITCH NFT ON PURCHASE PER METER.</h3>
-            <ul class="list-unstyled" id="store">
-              <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Get Nfts from the Switch collection on Stash</span></li>
-              <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Mint and Swap owned Nfts, for $SCRT</span></li>
-              <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Swap $SCRT to Naira or eNaira</span></li>
-            </ul>
-
           </div>
         </div>
       </section>
