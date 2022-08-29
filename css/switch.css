@@ -20,11 +20,20 @@
     margin-left: auto !important;
     margin-right: auto !important;
     width: 27% !important;
-  }
+}
 
+#forceHide{
+    display: none;
+}
 @media (min-width: 992px)
 {
     .pb-lg-0 {
         padding-left: 7.5rem !important;
     }
+}
+
+@media (max-width : 780px){
+ #forceHide{
+    display: inline-block
+ }
 }
