@@ -1,45 +1,157 @@
-.text-white{
-    color: #ffff;
+.h-1 {
+  color: #3b7733;
 }
 
-.brand-green{
-    background-color: #3B7733;
+.text-white {
+  color: #ffff;
 }
 
-.brand-orange{
-    background-color: #F07F2F;
+.brand-green {
+  background-color: #3b7733;
 }
 
-.accordion-button{
-    font-size: 1.325rem !important;
+.brand-orange {
+  background-color: #f07f2f;
+}
+
+.browser {
+  display: block;
+  margin: auto;
+}
+
+.empty {
+  height: 270px;
+}
+
+.mobile {
+  margin-bottom: 170px;
+}
+
+.mobile-info {
+  max-width: 496px;
+}
+
+.accordion-button {
+  font-size: 1.325rem !important;
 }
 
 .select {
-    display: block;
-    padding-top: 23px;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    width: 27% !important;
+  display: block;
+  padding-top: 23px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 40% !important;
 }
 
-#forceHide{
-    display: none;
-}
-@media (min-width: 992px)
-{
-    .pb-lg-0 {
-        padding-left: 7.5rem !important;
-    }
+.parx {
+  max-width: 705px;
 }
 
-@media (max-width : 999px){
- #forceHide{
-    display: inline-block
- }
+.partners {
+  margin-top: -198px;
+}
 
- .partnerMoblie{
+.about {
+  margin-top: -175px;
+}
+
+.about img {
+  width: 200px;
+  padding-bottom: 10%;
+}
+
+.award {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.form {
+  position: absolute;
+  left: -5000px;
+}
+
+.radio-white {
+  background-color: #dddddd;
+}
+
+.radio-red {
+  background-color: #ff6d56;
+}
+
+.radio-orange {
+  background-color: #fa9233;
+}
+
+.radio-yellow {
+  background-color: #ffbe0a;
+}
+
+.radio-green {
+  background-color: #8ac539;
+}
+
+.radio-blue {
+  background-color: #57b7dd;
+}
+.radio-purple {
+  background-color: #a98cbc;
+}
+
+.whatsapp {
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.whatsapp-link:hover {
+  color: #d05f0f;
+}
+
+.whatsapp-icon {
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+.world {
+  background-image: url("../img/Others/world-image.png");
+}
+
+.jarallax-bg {
+  background-color: #eee;
+}
+
+.jarallax-bg-img {
+  background-image: url("../img/Others/hd-pattern-png-transparent-triangle-transparent-png-image-pattern-transparent-2048_1024.png");
+}
+
+.jarallax-partners {
+  margin-top: -260px;
+}
+
+#forceHide {
+  display: none;
+}
+@media (min-width: 992px) {
+  .pb-lg-0 {
+    padding-left: 7.5rem !important;
+  }
+}
+
+@media (max-width: 999px) {
+  #forceHide {
+    display: inline-block;
+  }
+
+  .partnerMoblie {
     width: 50%;
     margin: auto;
- }
-
+  }
 }
+
+@media only screen and (max-width: 992px) {
+    .award {
+        width: 100%;
+    }
+} 
