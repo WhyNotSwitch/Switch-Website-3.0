@@ -17636,8 +17636,8 @@ a.card-floating-icon:hover {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-position: center !important;
-  background-size: cover !important;
+  background-position: center;
+  background-size: cover;
 }
 @media (max-width: 499.98px) {
   [data-disable-parallax-down="sm"] {
