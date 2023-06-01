@@ -77,18 +77,18 @@
   font-color: #3b7733 !important;
 }
 .whatsapp {
-  font-size: 1.1rem;
-  font-weight: bold;
   text-decoration: underline;
 }
 
-.whatsapp-link:hover {
-  color: #d05f0f;
+.whatsapp-link, .whatsapp-link:hover {
+  color: #f07f2f;
+  font-size: 1.1rem;
+  font-weight: 600 !important;
 }
 
-.whatsapp-icon {
-  font-size: 1.4rem;
-  text-decoration: none;
+.whatsapp-link .ai-whatsapp {
+  font-size: 1.2rem;
+  font-weight: 700 !important;
 }
 
 #green {
